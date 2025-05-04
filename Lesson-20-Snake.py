@@ -2,7 +2,7 @@ import os
 import time
 import random
 import curses
-
+# committing this comment
 BOARD_WIDTH = 20
 BOARD_HEIGHT = 5
 DIFFICULT = 8
