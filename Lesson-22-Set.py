@@ -1,5 +1,5 @@
 # sets are mutable, but the data inside a set must be of immutable type such as number, string and tuple
-
+# sets are unordered
 # this is how you create a set.
 s = {1,3,2,4,5,5,5}
 
@@ -67,3 +67,22 @@ print(s1.difference(s))
 s1.clear()
 
 print(s1)
+myTuple = (10, 20, 30)
+mySet = {3.2, "Hello", 3, myTuple}
+
+for element in mySet:
+    print(element)
+
+for element in mySet:
+    if 3 in mySet:
+        print(True)
+        break
+mySet.remove(myTuple)
+
+print(mySet)
+
+mySet.pop()
+
+print(mySet)
+mySet.clear()
+print(mySet)
