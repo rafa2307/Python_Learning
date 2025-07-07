@@ -103,3 +103,11 @@ numbers.clear()
 
 print("numbers list after calling the clear method:", numbers)
 
+nums = [1,2,3,4,5,5,2,1,3]
+
+# this is how you do a nested for loop in python with lists.
+for i in range(len(nums)):
+    for j in range(i + 1, len(nums)):
+        if nums[i] == nums[j]:
+            print(nums[i])
+
